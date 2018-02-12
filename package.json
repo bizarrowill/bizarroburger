@@ -1,0 +1,35 @@
+{
+  "name": "bizarroburger",
+  "version": "1.0.0",
+  "description": "burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It follows the MVC design pattern; uses Node and MySQL to query and route data, and Handlebars to generate the HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizarrowill/bizarroburger.git"
+  },
+  "keywords": [
+    "burgers",
+    "MySQL",
+    "Node",
+    "Express",
+    "Handlebars"
+  ],
+  "author": "William Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizarrowill/bizarroburger/issues"
+  },
+  "homepage": "https://github.com/bizarrowill/bizarroburger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {}
+}
