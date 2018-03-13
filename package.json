@@ -2,7 +2,7 @@
   "name": "bizarroburger",
   "version": "1.0.0",
   "description": "burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It follows the MVC design pattern; uses Node and MySQL to query and route data, and Handlebars to generate the HTML",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
